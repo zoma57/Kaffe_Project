@@ -1,0 +1,19 @@
+body {
+    font-family: "Oswald", sans-serif;
+    /* height: 6000px; */
+    background-color: var(--bs-success);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sansita Swashed", system-ui;
+}
+header nav .nav-link span.text {
+    position: relative;
+    z-index: 2;
+    transition-duration: .5s;
+}
+

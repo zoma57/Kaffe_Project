@@ -1,0 +1,172 @@
+@media (max-width: 1300px) {
+    header nav.navbar .navbar-nav {
+        background-color: black;
+        text-align: center;
+        border-radius: 5px;
+        column-gap: 0px;
+        row-gap: 5px;
+        padding: 15px 10px;
+    }
+    header nav.navbar .navbar-brand img {
+        width: 65%;
+    }
+    header nav.navbar .navbar-toggler {
+        border-color: var(--bs-success);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50px;
+        height: 40px;
+        padding: 0;
+    }
+    header nav.navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    header nav.navbar .navbar-toggler span {
+        display: block;
+        width: 60%;
+        height: 3px;
+        background-color: var(--bs-success);
+
+    }
+    header .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 30px;
+    }
+    header .carousel-inner .carousel-item .carousel-caption p {
+        width: 90%;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    #About .part1 h2 {
+        font-size: 40px;
+        letter-spacing: 1.5px;
+    }
+    #About .part2 .box .specialCard {
+        max-width: 280px;
+        margin: auto;
+
+    }
+    #Menu ul.nav {
+        width: max-content;
+    }
+    #Menu .tab-pane .box {
+        max-width: 280px;
+        margin: auto;
+    }
+    #Beans_Coffee {
+        height: 200px;
+    }
+    .modal .modal-content {
+    max-width: 280px;
+}
+    #Book .container {
+        background-image: none;
+    }
+    #Book form {
+        width: 90%;
+        /* margin: auto; */
+    }
+    #Book form button {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header nav.navbar .navbar-brand img {
+        width: 85%;
+    }
+    #Beans_Coffee {
+        height: 250px;
+    }
+    .modal .modal-content {
+    max-width: 400px;    
+}
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+     header .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 40px;
+    }
+    header nav.navbar .navbar-brand img {
+        width: 75%;
+    }
+    /* #About .part2 .box .specialCard {
+        width: initial;
+
+    } */
+     #Services .content img {
+        width: 70%;
+        display: block;
+        margin: auto;
+     }
+     #Beans_Coffee {
+        height: 300px;
+    }
+      .modal .modal-content {
+    max-width: 450px;    
+}
+        #Book .container {
+        background-image: url(../images/Book_girl.png);
+        background-size: 50%;
+    }
+    #Book form {
+        width: 50%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+     header .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 50px;
+    }
+    #Services .content img {
+        width: 50%;
+     }
+     #Beans_Coffee {
+        height: 350px;
+    }
+    .modal .modal-content {
+        max-width: 600px;
+    
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+     header .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 60px;
+    }
+    header nav.navbar .navbar-nav {
+        background-color: transparent;
+        column-gap: 20px;
+    }
+    header nav.navbar .navbar-toggler {
+        display: none;
+    }
+    #About .part2 .box:nth-of-type(3) .specialCard {
+        height: 401.96px;
+
+    }
+    #Services .content img {
+        width: 100%;
+     }
+     #Beans_Coffee {
+        height: 400px;
+    }
+    .modal .modal-content {
+        max-width: 650px;
+    
+}
+    #Book form {
+        width: 100%;
+        /* margin-left: auto; */
+    }
+    
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+}
