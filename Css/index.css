@@ -293,6 +293,11 @@ header .carousel-inner .carousel-item .carousel-caption .buttons a:hover span {
     /* animation-timing-function: linear; */
     animation-direction: alternate;
 }
+#Services .content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #Services .content .row h4 {
     font-size: 27px;
 }
